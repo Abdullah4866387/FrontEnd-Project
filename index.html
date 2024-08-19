@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Extreme Fitness Center</div>
+        <span>
+          <p id="datetime"></p>
+        </span>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="hero">
+      
+        <h1 style="color: black">Welcome to Extreme Fitness Center</h1>
+        <p style="color: black">Your Journey to Fitness Starts Here</p>
+        <a href="#about" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Welcome to GymFit, where fitness transcends beyond a hobby and becomes a lifestyle. At GymFit, we provide top-notch facilities 
+        and a range of fitness classes to help you achieve your fitness goals. Our mission is to provide a dynamic and supportive
+        environment where you can pursue your health and fitness goals with the best in state-of-the-art and expert trainers. At GymFit,
+        we foster a community spirit, bringing together like-minded individuals who motivate and support each other to achieve personal 
+        bests. We offer flexible membership options tailored to your needs, whether you're a seasoned athlete or just starting your 
+        fitness journey. Our holistic approach to wellness includes nutritional advice, yoga classes, and relaxation therapies, emphasizing
+        overall well-being. At GymFit, we are committed to inspiring, challenging, and supporting you in transforming your life through 
+        fitness. Experience the GymFit difference and make your fitness dreams a reality.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service-container">
+        <div class="service">
+          <h3>Personal Training</h3>
+          <p>One-on-one sessions with our expert trainers.</p>
+        </div>
+        <div class="service">
+          <h3>Group Classes</h3>
+          <p>
+            Join our group classes for a fun and engaging workout experience.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Nutrition Plans</h3>
+          <p>Customized nutrition plans to complement your fitness routine.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="trainers">
+      <h2>Meet Our Trainers</h2>
+      <div class="trainer-container">
+        <div class="trainer">
+          <img src="abd.jpg" alt="Trainer 1" />
+          <h3>Abdullah Ramzan</h3>
+          <p>Specializes in strength training and bodybuilding.</p>
+        </div>
+        <div class="trainer">
+          <img src="hasnan.jpg" alt="Trainer 2" />
+          <h3>Hasnan Anwar</h3>
+          <p>Expert in yoga and pilates.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Our Gym</h2>
+      <div class="gallery-container">
+        <img class="gym_pic" src="gym1.jpg" alt="Gym Image 1" />
+        <img class="gym_pic" src="gym2.jpg" alt="Gym Image 2" />
+        <img class="gym_pic" src="gym3.jpg" alt="Gym Image 3" />
+      </div>
+      <div class="gallery-container">
+        <img class="gym_pic" src="gym4.jpg" alt="Gym Image 4" />
+        <img class="gym_pic" src="gym5.jpg" alt="Gym Image 5" />
+      </div>
+    </section>
+
+    <section id="blog">
+      <h2>Latest Blog Posts</h2>
+      <div class="blog-container">
+        <div class="blog-post">
+          <div
+            class="blog-image"
+            style="background-image: url('blog1.jpg')"
+          ></div>
+          <div class="blog-content">
+            <h3>GYM</h3>
+            <p>
+              Explore the GymFit Blog for expert advice, workout tips, and
+              inspiring stories to fuel your fitness journey.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="blog-post">
+          <div
+            class="blog-image"
+            style="background-image: url('blog2.jpg')"
+          ></div>
+          <div class="blog-content">
+            <h3>FITNESS</h3>
+            <p>
+              Unlock your full potential with these top fitness tips and
+              strategies to boost your strength, endurance, and overall
+              well-being.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="blog-post">
+          <div
+            class="blog-image"
+            style="background-image: url('blog3.jpg')"
+          ></div>
+          <div class="blog-content">
+            <h3>DEADLIFTING</h3>
+            <p>
+              Master the art of deadlifting with these essential tips and
+              techniques to maximize your strength, power, and form.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form class="form_contact">
+        <input type="text" placeholder="Name" required />
+        <br>
+        <br>
+        <input type="email" placeholder="Email" required />
+        <br>
+        <br>
+        <textarea placeholder="Message" required></textarea>
+        <br>
+        <br>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <br><br><br><br><br><br>
+    </section>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
